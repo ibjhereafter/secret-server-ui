@@ -8,7 +8,7 @@ import { getAllSecret, getAllSecretError } from "./reducers/allSecretsReducer";
 import { getSecret, getSecretError } from "./reducers/secretReducer";
 
 
-const baseUrl = `http://localhost:5000`;
+const baseUrl = `https://ibj-secret-server.herokuapp.com`;
 
 export const startGetAllSecret = (): Function => {
     return async (dispatch: Dispatch) => {
